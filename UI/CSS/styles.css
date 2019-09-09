@@ -1,0 +1,587 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* styling home page */
+
+#bgImg {
+    font-size: 20px;
+    width: 100%;
+    background-image: url('../Images/homeback.jpg');
+    background-size: cover;
+    min-height: 98vh;
+    background-repeat: no-repeat;
+    color: white;
+    overflow-x: hidden;
+}
+
+.head {
+    float: left;
+    margin-left: 30px;
+}
+
+.head a {
+    color: #60adde;
+}
+
+.head a:hover {
+    cursor: pointer;
+}
+
+#homeNav li {
+    display: inline;
+    padding: 20px;
+}
+
+#homeNav a {
+    color: #fff;
+}
+
+#homeNav a:hover {
+    cursor: pointer;
+    color: #60adde;
+    font-weight: bold;
+}
+
+#homeNav {
+    float: right;
+}
+
+.headerContent {
+    width: 100%;
+}
+
+.headerContent:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.getStarted {
+    width: 100%;
+    padding: 120px;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+.getstarted-btn {
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+}
+
+.btn1 {
+    padding: 6px 100px;
+    border-radius: 15PX;
+    color: white;
+    background: #60adde;
+}
+
+.btn1:hover {
+    background: #1fa7c9;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:685px) {
+    .getStarted {
+        margin: 10px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .getstarted-btn {
+        margin: 20px;
+        padding: 20px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:385px) {
+    .getStarted {
+        margin: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    .getstarted-btn {
+        margin: 8px;
+        padding: 20px;
+        font-size: 10px;
+    }
+}
+
+
+/*header of the innerpages*/
+
+#innerPage {
+    width: 100%;
+    margin: auto;
+    background-color: #616060;
+    padding-top: 5px;
+    min-height: 40px;
+    border-bottom: #60adde 3px solid;
+    top: 0;
+    overflow: hidden;
+    position: sticky;
+    color: white;
+}
+
+#innerPage a {
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#innerPage li {
+    display: inline;
+    padding: 20px;
+}
+
+#innerpage #home {
+    float: left;
+    color: #60adde;
+}
+
+#innerPage h1 {
+    margin: 0px 10px;
+    color: #60adde;
+}
+
+#innerPage nav {
+    float: right;
+}
+
+#innerPage a:hover {
+    color: #60adde;
+    font-weight: bold;
+}
+
+#innerPage .current a {
+    color: #60adde;
+    font-weight: bold;
+}
+
+#innerpage:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*sign*/
+
+.signContainer {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.sign {
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 40px;
+    color: #000;
+    margin: 60px auto;
+    box-shadow: 0px 0px 10px;
+}
+
+.sign .btn1 {
+    text-align: center;
+}
+
+.sign a {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sign h2 {
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 5px;
+    background: white;
+    outline: none;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.exists {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.forgotPswd {
+    text-align: right;
+}
+
+@media only screen and (max-width:685px) {
+    .sign {
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .sign {
+        font-size: 10px;
+    }
+}
+
+
+/* articles page */
+
+.search-art {
+    width: 98vw;
+    margin: auto;
+}
+
+.search-art input[type="text"] {
+    width: 50%;
+}
+
+.articles-container {
+    width: 98vw;
+    margin: auto;
+    height: auto;
+}
+
+.articles-container :after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.feed-dash {
+    float: left;
+    width: 40%;
+    margin: auto;
+    color: white;
+    padding: 2vh;
+}
+
+.feed {
+    width: 90%;
+    margin: auto;
+    background: #616060;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.feed a {
+    color: white;
+}
+
+.team-members {
+    width: 90%;
+    margin: 5vh auto;
+    text-align: center;
+    padding: 2px;
+    background: #616060;
+    border-radius: 8px;
+}
+
+.team-members p {
+    width: 100%;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.articles {
+    float: right;
+    width: 60%;
+    margin: auto;
+    padding-right: 2vh;
+}
+
+.create-art {
+    width: 100%;
+}
+
+.article-feed {
+    width: 100%;
+}
+
+.body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.article {
+    box-shadow: 0px 0px 10px;
+    margin: 5vh auto;
+    background: #fff;
+    padding: 5px;
+    cursor: default;
+    min-height: fit-content;
+    border-radius: 10px;
+}
+
+.article a {
+    color: #000;
+}
+
+.article button a {
+    color: #fff;
+}
+
+.article input[type="text"] {
+    width: 98%;
+    margin: auto;
+}
+
+.article .btn1 {
+    width: 120px;
+    text-align: center;
+    /* border-radius: 100px; */
+    padding: 0;
+}
+
+.comment-article .article-paragraph {
+    word-wrap: break-word;
+}
+
+
+/*specific article page */
+
+.feeds {
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+    background: #616060;
+    border-radius: 5px;
+}
+
+
+/* popup div to create article */
+
+.bg-article {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.new-article {
+    width: 80%;
+    min-height: 50vh;
+    text-align: center;
+    background: #616060;
+    position: relative;
+    border-radius: 12px;
+}
+
+.cre {
+    cursor: default;
+    padding-top: 5px;
+    text-align: left;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.new-article textarea {
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 0;
+    resize: none;
+}
+
+.new-article input {
+    width: 90%;
+}
+
+#btn1 {
+    margin-bottom: 1vh;
+}
+
+.close {
+    top: -3%;
+    right: 0;
+    position: absolute;
+    font-size: 2em;
+    transform: rotate(45deg);
+    cursor: pointer;
+    color: #fff;
+}
+
+.dont-scroll {
+    overflow-y: hidden;
+}
+
+@media only screen and (max-width: 612px) {
+    .articles-container {
+        float: none;
+    }
+    .feed-dash {
+        display: none;
+        float: none;
+    }
+    .articles {
+        float: none;
+        width: 100%;
+    }
+    #btn1 {
+        padding: 0;
+        width: 30%;
+    }
+    .new-article {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .article .btn1 {
+        width: 25%;
+    }
+}
+
+
+/* about us page */
+
+.aboutImg {
+    background-image: url("../Images/about1.jpg");
+    background-size: cover;
+    width: 98%;
+    min-height: 75vh;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+}
+
+.aboutImg h1 {
+    padding: 25vh;
+}
+
+.abtftr {
+    width: 98%;
+    background: #60adde;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutTeam {
+    margin: auto;
+    width: 98%;
+    background: aliceblue;
+    padding: 5vh;
+    line-height: 2.5em;
+}
+
+.contactMe {
+    margin: auto;
+    width: 98%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.contactMe img {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:1024px) {
+    .aboutImg h1 {
+        font-size: 1.5vh;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .separtor {
+        display: none;
+    }
+    .aboutImg h1 {
+        font-size: 2.5vh;
+        padding: 9.3vh
+    }
+}
+
+
+/* contact Us page */
+
+.contactUs {
+    margin: auto;
+    text-align: center;
+}
+
+.contactUs h1 {
+    text-transform: uppercase;
+}
+
+.contactForm {
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 23px;
+    padding: 20px;
+    min-height: 97vh;
+}
+
+.contactForm input[type=text],
+.contactForm input[type=email] {
+    width: 100%;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.contactForm textarea {
+    width: 100%;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 5px;
+    resize: none;
+}
+
+
+/*footer*/
+
+.wholePage-footer {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 1.5rem;
+}
+
+#footer a {
+    color: #60adde;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    position: relative;
+    height: 1.5rem;
+    margin-top: -1.5rem;
+}
