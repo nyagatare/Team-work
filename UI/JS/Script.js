@@ -17,10 +17,3 @@ postNew.addEventListener('click', () => {
     bgArticle.style.display = 'none';
     body.classList.toggle = 'dont-scroll';
 });
-const editBtn= document.querySelector('#edit');
-editBtn.addEventListener('click',()=>{
-  bgArticle.style.display = 'flex';
-    body.classList.toggle = 'dont-scroll';
-});
-
-

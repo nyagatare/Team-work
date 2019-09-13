@@ -374,6 +374,10 @@ input[type=password] {
     border-radius: 5px;
 }
 
+.feeds a {
+    color: #fff;
+}
+
 
 /* popup div to create article */
 
@@ -419,6 +423,10 @@ input[type=password] {
 
 #btn1 {
     margin-bottom: 1vh;
+}
+
+#btn1 a {
+    color: #fff;
 }
 
 .close {
